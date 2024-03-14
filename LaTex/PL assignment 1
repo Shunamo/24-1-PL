@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage{amsmath} % 'align*' 환경을 위해 필요함
+\usepackage{graphicx} % 이미지 삽입을 위해 필요함
+\usepackage{kotex} % 한글 사용을 위해 필요함
+\usepackage{subcaption}
+
+\title{PL assignment 1}
+\author{김수현}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{자기 소개}
+이름: 김수현 \\
+학번: C211032 \\
+전공: 컴퓨터공학 \\
+취미: 베이킹 \\
+\\
+\\
+\section{수식 작성(학번 2,3으로 끝날 시)}
+
+\subsection*{\#2 극한값의 계산}
+수열의 극한에 대한 기본 성질\\
+수열 $\{a_n\}$, $\{b_n\}$이 모두 수렴하고, \\
+$\lim_{n \to \infty} a_n = \alpha$, $\lim_{n \to \infty} b_n = \beta$ 일 때,
+
+\begin{itemize}
+    \item $\lim_{n \to \infty} c a_n = c \lim_{n \to \infty} a_n = c\alpha$ 
+    \item $\lim_{n \to \infty} (a_n + b_n) = \alpha + \beta$
+    \item $\lim_{n \to \infty} (a_n - b_n) = \alpha - \beta$
+    \item $\lim_{n \to \infty} a_n b_n = \lim_{n \to \infty} a_n \lim_{n \to \infty} b_n = \alpha\beta$
+    \item $\lim_{n \to \infty} \frac{a_n}{b_n} = \frac{\lim_{n \to \infty} a_n}{\lim_{n \to \infty} b_n} = \frac{\alpha}{\beta}$ (단, $b_n  \neq 0, \beta \neq 0$)
+\end{itemize}
+
+\[
+\lim_{n \to \infty} \frac{1}{n} = 0
+\]
+\\
+\\
+
+\section{가장 좋아하는 그림을 문서에 넣기}
+
+\subsection{자신을 나타낼 수 있는 사진 + 설명}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=2.5cm, height=3cm]{수냥증사.jpg}
+    \caption{작년에 찍은 증명 사진입니다.}
+    \label{fig:증명사진}
+\end{figure}
+사진 \ref{fig:증명사진}은 제가 가장 좋아하는 제 사진 중 하나입니다. 운전 면허를 따기 위해서 촬영하였고, 2023년 여름 방학에 두 번의 도전 끝에 운전 면허를 취득하였습니다.
+
+
+
+\subsection{좋아하는 연예인 사진 여러 장 + 설명}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{라이즈 성찬.jpg}
+        \caption{라이즈 성찬}
+        \label{fig:celeb1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{크래비티 민희.jpg}
+        \caption{크래비티 민희}
+        \label{fig:celeb2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{박정민 배우.jpg}
+        \caption{박정민 배우}
+        \label{fig:celeb3}
+    \end{subfigure}
+    \caption{좋아하는 연예인들}
+    \label{fig:celebs}
+\end{figure}
+사진 \ref{fig:celebs}는 제가 좋아하는 연예인들을 보여줍니다.
+ \newline \newline 
+ 사진 \ref{fig:celeb1}은 아이돌 그룹 '라이즈'의 메인 래퍼 '성찬'입니다. 사슴 같은 외모가 매력적이고 186cm의 장신으로 체격도 좋아 여심을 사로잡는 인기 있는 아이돌입니다. 저는 성찬의 사슴 같이 예쁜 얼굴을 좋아합니다.
+ \newline \newline 
+ 사진 \ref{fig:celeb2}는 아이돌 그룹 '크래비티'의 리드 보컬 '민희'입니다. 천사 같이 하얀 피부와 웃음이 매력적이고 185cm의 장신입니다. 2019년에 방영했던 '프로듀스 X 101'에 출연하여 인지도를 얻고 2020년 '크래비티'로 데뷔하였습니다. 저는 민희의 두상이 예쁘다고 생각을 하는데, 검은색 머리가 잘 어울려서 흰 피부가 더욱 돋보이는 것 같습니다.
+  \newline \newline 
+  사진 \ref{fig:celeb3}은 배우 '박정민'입니다. 맡은 배역에 따라 생동감 있는 연기를 보여주는 인기 있는 대한민국의 배우입니다. 저는 영화 '타짜'에서 그의 재치 있는 연기에 매료되어 좋아하게 되었습니다.
+
+ \newline \newline 
+
+\section{논문을 인용해보고, 참고문헌 표시해보기}
+
+Abstract
+Tsukirino, Yumi. Fluffy, Fluffy Cinnamoroll. 3 vols. San Francisco: VIZ Media, 2012. Print.
+
+Reading young children graphic novels is lots of fun and potentially encourages a more adaptable sense of narrative and enhanced visual interpretive skills. Many European and pan-Asian visual narratives test and thrill readers with the unanticipated ways they resolve the challenges of creating cohesive visual narratives and young readers can begin to appreciate narratives that don’t function in familiar, aesthetically normalized ways. The manga Fluffy, Fluffy Cinnamoroll has an appealing, unstructured page design that is enjoyable for young readers to negotiate but its real audience is pre-teens and teenagers who yearn for a big dose of super-kawaii Japanese culture.
+
+Fluffy, Fluffy Cinnamoroll has been given an “A” or “all ages” rating by the publisher and Cinnamoroll, the eponymous fluffy puppy, is part of the empire of Sanrio licensed characters which include Hello Kitty and her cohort of friends. Like Cinnamoroll characters designed for young Japanese readers are generally drawn with simple, “black dot” eyes so it might seem that Fluffy, Fluffy Cinnamoroll should be accessible for children in Grades 2 to 5. The appeal of characters designed for young audiences is not, however, always limited to young audiences and that is where consideration of the readership for which Fluffy, Fluffy Cinnamoroll is intended gets complicated.
+
+Book 1 starts appealingly with an introduction of the characters and magically-themed, short vignettes in which Cinnamoroll and his other puppy friends have adorable and mildly amusing adventures. There is little narrative continuity or intensity and readers must be drawn in by the magnetism of sheer cuteness but effervescent books like Fluffy, Fluffy Cinnamoroll have a legitimate place in a child’s repertoire of reading experiences. The tone and content in Books 1 and 2 are innocuous in the extreme but in Book 3, the tone and content changes. One of the stories has the pups eagerly auditioning to become pop idols. Another centres on the rigorous diet and exercise that some of puppies have to commit to in order to be ready for “bikini season”. It seems as though the writer has shifted tone to write for her own demographic rather than younger children. Book 3 is for an audience that thrills to the cuteness of the puppies but is media literate, relatively sophisticated and perhaps even a little world-weary.
+
+Fluffy, Fluffy Cinnamoroll is fun to read. It is brimming with interesting Japanese cultural context and is at times quite funny in a light and irreverent way. VIZ Media should be commended for bringing a wide range of manga to North American audiences with a slight proviso that, while can be very difficult to establish age-appropriate ratings, Fluffy, Fluffy Cinnamoroll is not quite as uncomplicatedly “all ages” as its “A” rating would indicate.
+
+Recommended with Reservations:  2 out of 4 stars
+Reviewer: Matilda Roche
+
+Matilda spends her days lavishing attention on the University of Alberta’s metadata but children’s illustrated books, literature for young adults and graphic novels also make her heart sing. Her reviews benefit from the critical influence of a four year old daughter and a one year old son – both geniuses. Matilda’s super power is the ability to read comic books aloud.
+\begin{thebibliography}{9}
+\bibitem{roche2012fluffy}
+Matilda Roche,
+\textit{Fluffy, Fluffy Cinnamoroll},
+VIZ Media, 3 vols., San Francisco, 2012.
+\end{thebibliography}
+\end{document}
+
